@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, MapPin, TrendingUp, User, Building2, Sparkles, ChevronDown, ChevronUp } from 'lucide-react';
+import { Calendar, MapPin, TrendingUp, Building2, Sparkles, ChevronDown, ChevronUp } from 'lucide-react';
 
 type Complaint = {
   id: string;

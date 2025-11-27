@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabase';
-import { Plus, Filter, Calendar, MapPin, Image as ImageIcon } from 'lucide-react';
+import { Plus, Filter, Image as ImageIcon } from 'lucide-react';
 import { ComplaintForm } from './ComplaintForm';
 import { ComplaintCard } from './ComplaintCard';
 
